@@ -1,24 +1,28 @@
 {
-    "name": "jinseokoh/bootpay",
-    "description": "Unofficial BootPay package for Laravel",
+    "name": "mytory/bootpay",
+    "description": "Unofficial BootPay package for Laravel forked from jinseokoh/bootpay. Because of guzzle version.",
     "type": "library",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "keywords": ["Laravel", "BootPay"],
     "license": "MIT",
     "authors": [
         {
             "name": "Chuck JS. Oh",
             "email": "jinseokoh@hotmail.com"
+        },
+        {
+            "name": "An, Hyeong-woo",
+            "email": "mytory@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": "^7.1.3",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0",
+        "phpunit/phpunit": "^9.0",
         "orchestra/testbench": "^4.0"
     },
     "autoload": {
